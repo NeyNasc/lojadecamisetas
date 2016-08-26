@@ -1,6 +1,4 @@
-<html>
-<body>
-<%= nav_bar brand: "Kunstee", brand_link: root_url %>
+
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -10,7 +8,7 @@
             <th>Quantidade</th>            
         </tr>
     </thead>
-        <tbody>
+    <tbody>
         <% @produtos_por_nome.each do |produto| %>
         <tr>
             <td><%= produto.nome %></%></td>
@@ -21,7 +19,6 @@
         <% end %>
     </tbody>
 </table>
-
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -42,6 +39,4 @@
         <% end %>
     </tbody>
 </table>
-
-</body>
-</html>
+</div>
