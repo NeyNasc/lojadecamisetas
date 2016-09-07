@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#traduzindo mensagens para português
+gem 'rails-i18n', '~> 4.0.0'
 # Use booststrap
 gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
